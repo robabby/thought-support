@@ -1,0 +1,91 @@
+{
+  "choices": [
+    {
+      "id": "80353bbd-4b4e-44b9-b95e-103f1e7153a7",
+      "name": "Create OKR",
+      "type": "Macro",
+      "command": true,
+      "macroId": "411074f2-71e7-499c-a447-1fbe367fd829"
+    },
+    {
+      "id": "0f357ae6-3fe4-4aef-bc8d-5d1b5f3b3956",
+      "name": "Create KR",
+      "type": "Macro",
+      "command": true,
+      "macroId": "247734b4-a5a3-4873-a868-b41764a05ee8"
+    },
+    {
+      "id": "1f691c56-1429-4e0a-b09c-81a82262718e",
+      "name": "Uncheck checkboxes",
+      "type": "Macro",
+      "command": true,
+      "macroId": "c5103297-d47f-4e79-855c-9a54514ff979"
+    },
+    {
+      "id": "a9c8be75-946d-4515-8166-19cbf65907d3",
+      "name": "Add task to Inbox",
+      "type": "Macro",
+      "command": true,
+      "macroId": "a7930c88-b52e-42b3-bccf-4dfcdd2d3de0"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Create OKR",
+      "id": "411074f2-71e7-499c-a447-1fbe367fd829",
+      "commands": [
+        {
+          "name": "create-okr",
+          "type": "UserScript",
+          "id": "1dbaa5fa-1763-4a38-ba6a-035db8445ce3",
+          "path": "Resources/Vault/Macros/create-okr.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create KR",
+      "id": "247734b4-a5a3-4873-a868-b41764a05ee8",
+      "commands": [
+        {
+          "name": "create-kr",
+          "type": "UserScript",
+          "id": "90586cef-8de2-4a08-97b7-d819a4518add",
+          "path": "Resources/Vault/Macros/create-kr.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Uncheck checkboxes",
+      "id": "c5103297-d47f-4e79-855c-9a54514ff979",
+      "commands": [
+        {
+          "name": "uncheck-checkboxes",
+          "type": "UserScript",
+          "id": "e9d97db4-db87-4924-a933-1405201cfb4d",
+          "path": "Resources/Vault/Macros/uncheck-checkboxes.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Add task to Inbox",
+      "id": "a7930c88-b52e-42b3-bccf-4dfcdd2d3de0",
+      "commands": [
+        {
+          "name": "add-to-inbox",
+          "type": "UserScript",
+          "id": "ce4ff69a-27fc-4843-aed5-03b9867b9a9b",
+          "path": "Resources/Vault/Macros/add-to-inbox.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line"
+}

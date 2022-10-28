@@ -1,0 +1,1 @@
+The theme I personally use is "Things 2" by Colin Eckert which can be installed by going to *Obsidian Settings -> *Apperance* and pressing the *Manage* button in the *Themes* section of the panel.
